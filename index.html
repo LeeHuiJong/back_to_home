@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="css/style.css" rel="stylesheet"/>
+        
+    </head>
+    
+    
+    <body>
+        
+        <div class = head>
+            <img class = head_img src = 'img/head.png'>
+            <img class = head_img1 src = 'img/head1.png'>
+        </div>
+        
+        <div class = 'intro'>
+            
+            <div class = 'intro_saying'>
+            귀경길 거리 계산기
+            </div>
+            
+            <div class = 'intro_saying2'>
+            자신이 현재 살고 있는 장소(도시)에서 다른 지역으로 이동할 때<br>
+                걸리는 시간과 거리를 계산해 줍니다
+            </div>
+            
+        </div>
+        
+        <div class = 'inputs'>
+            
+            <div class = "inputs_departure">
+                <p>내가 살고 있는 장소는</p> 
+                    <select id='field_value'>
+                        <option selected value="none">=== 선택 ===</option>
+                        <option>서울</option>
+                        <option>대전</option>
+                        <option>춘천</option>
+                        <option>강릉</option>
+                        <option>대구</option>
+                        <option>부산</option>
+                        <option>광주</option>
+                        <option></option>
+                    </select>
+            </div>
+            
+            <div class = "inputs_arrival">
+                <p>내가 가는 목적지는 </p>
+                    <select id='field_value'>
+                        <option selected value="none">=== 선택 ===</option>
+                        <option>서울</option>
+                        <option>대전</option>
+                        <option>춘천</option>
+                        <option>강릉</option>
+                        <option>대구</option>
+                        <option>부산</option>
+                        <option>광주</option>
+                        <option></option>
+                    </select>    
+            </div>
+            
+        </div>
+        
+        <div class = 'result'>
+            
+            <div class='result_wrap'>
+                <div>
+                    가는데 필요한 시간은 <span class='field_result'></span> 시간
+                </div>
+                
+                <div>
+                    목적지 까지의 거리는 <span class='time_result'></span> km 입니다
+                </div>
+            </div>
+        </div>
+        
+        
+    </body>
+    
+    
+</html>
